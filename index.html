@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Shen Long</title>
+
+    <!-- Ini CSS Internal -->
+     <Style>
+        .artikel {
+            color: red;
+        }
+     </Style>
+
+     <!-- Ini CSS Eksternal -->
+      <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
     <header>
-        <h1> Title nih </h1>
+        <h1 style="color: blue;"> Title nih </h1>
     </header>
     <article>
         <header>
+            <!-- Ini CSS Inline -->
             <h1> Title nih </h1>
         </header>
-        <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
-        <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+        <p class="artikel">Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+        <p class="artikel">Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
     </article>
     <footer>
         <span>Footer</span>
