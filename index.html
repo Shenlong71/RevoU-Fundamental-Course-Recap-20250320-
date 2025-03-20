@@ -16,13 +16,14 @@
       <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1 style="color: blue;"> Title nih </h1>
+    <header style="display: flex; justify-content: space-between">
+         <!-- Ini CSS Inline -->
+            <h1 onmouseleave="showpopup()" style="color: blue; margin: 0px;"> Kiri nih </h1>
+            <h1 style="color: red; margin: 0px;"> Kanan nih </h1>
     </header>
     <article>
-        <header>
-            <!-- Ini CSS Inline -->
-            <h1> Title nih </h1>
+        <header>   
+             <h1> Title nih </h1>
         </header>
         <p class="artikel">Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
         <p class="artikel">Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
@@ -30,5 +31,13 @@
     <footer>
         <span>Footer</span>
     </footer>
+
+    <script>
+        // Ini Javascript internal
+        function showpopup() {
+            alert('Hello World'); //Popup Muncul
+        }
+    </script>
+
 </body>
 </html>
